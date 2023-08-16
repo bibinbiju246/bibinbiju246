@@ -33,24 +33,3 @@ void loop()
   }
   printf("chenges \n");
 }
-//{
-//  while (SerialBT.available()) {
-//    char command = SerialBT.read();
-//    if (digitalRead(buttonPin1) == LOW) {
-//      digitalWrite(redledPin, HIGH); // Turn on LED
-//    }
-//    else if (digitalRead(buttonPin3) == LOW) {
-//      digitalWrite(redledPin, LOW); // Turn off LED
-//    }
-//    else if (digitalRead(buttonPin2) == LOW) {
-//      // Read the brightness level from master
-//      while (!SerialBT.available()) {
-//        delay(10);
-//      }
-//      brightness = SerialBT.parseInt();
-//      brightness = constrain(brightness, 0, 255); // Limit brightness to 0-255
-//      
-//      analogWrite(redledPin, brightness); // Set LED brightness
-//    }
-//  }
-//}
